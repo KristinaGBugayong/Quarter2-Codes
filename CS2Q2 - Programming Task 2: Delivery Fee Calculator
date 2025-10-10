@@ -1,0 +1,10 @@
+def calculate_delivery_fee(distance, rate_per_km):
+    return distance * rate_per_km
+
+# Get user input
+distance = float(input("Enter distance in kilometers: "))
+rate_per_km = float(input("Enter rate per kilometer (₱): "))
+
+# Calculate and display total delivery fee
+total_fee = calculate_delivery_fee(distance, rate_per_km)
+print(f"Total Delivery Fee: ₱{total_fee:.2f}")
