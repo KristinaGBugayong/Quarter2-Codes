@@ -1,0 +1,10 @@
+# Initialize variables
+age = int(input("Hi there! Please enter your age: "))  # input variable
+total_sum = 0  # variable for accumulating the sum
+
+# Loop from 1 up to the given age
+for i in range(1, age + 1):
+    total_sum += i
+
+# Display the result
+print("The sum of all numbers from 1 to", age, "is:", total_sum)
